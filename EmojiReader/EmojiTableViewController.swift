@@ -2,35 +2,33 @@
 //  EmojiTableViewController.swift
 //  EmojiReader
 //
-//  Created by Swift Learning on 13.06.2022.
+//  Created by Swift Learning on 18.07.2022.
 //
 
 import UIKit
 
-
-
-class EmojiTableViewController: UITableViewController {
+final class EmojiTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
-
+        
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         self.title = "Emoji Reader"
         self.navigationItem.leftBarButtonItem = self.editButtonItem
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        
     }
-
+    
     // MARK: - Table view data source
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 5
@@ -40,11 +38,10 @@ class EmojiTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = "\(indexPath)"
-        // Configure the cell...
 
         return cell
     }
-   
+    
 
     /*
     // Override to support conditional editing of the table view.

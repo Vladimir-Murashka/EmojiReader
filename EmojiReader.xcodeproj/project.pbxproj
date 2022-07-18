@@ -13,7 +13,7 @@
 		2212AB5B285765BA003FA7FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2212AB59285765BA003FA7FD /* Main.storyboard */; };
 		2212AB5D285765BE003FA7FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2212AB5C285765BE003FA7FD /* Assets.xcassets */; };
 		2212AB60285765BE003FA7FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2212AB5E285765BE003FA7FD /* LaunchScreen.storyboard */; };
-		2212AB6A285769F8003FA7FD /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2212AB69285769F8003FA7FD /* EmojiTableViewController.swift */; };
+		22E6807E28856E5400FAB2E1 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E6807D28856E5400FAB2E1 /* EmojiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		2212AB5C285765BE003FA7FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2212AB5F285765BE003FA7FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2212AB61285765BE003FA7FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2212AB69285769F8003FA7FD /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		22E6807D28856E5400FAB2E1 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 				2212AB53285765BA003FA7FD /* AppDelegate.swift */,
 				2212AB55285765BA003FA7FD /* SceneDelegate.swift */,
 				2212AB57285765BA003FA7FD /* ViewController.swift */,
-				2212AB69285769F8003FA7FD /* EmojiTableViewController.swift */,
 				2212AB59285765BA003FA7FD /* Main.storyboard */,
+				22E6807D28856E5400FAB2E1 /* EmojiTableViewController.swift */,
 				2212AB5C285765BE003FA7FD /* Assets.xcassets */,
 				2212AB5E285765BE003FA7FD /* LaunchScreen.storyboard */,
 				2212AB61285765BE003FA7FD /* Info.plist */,
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2212AB6A285769F8003FA7FD /* EmojiTableViewController.swift in Sources */,
+				22E6807E28856E5400FAB2E1 /* EmojiTableViewController.swift in Sources */,
 				2212AB58285765BA003FA7FD /* ViewController.swift in Sources */,
 				2212AB54285765BA003FA7FD /* AppDelegate.swift in Sources */,
 				2212AB56285765BA003FA7FD /* SceneDelegate.swift in Sources */,
