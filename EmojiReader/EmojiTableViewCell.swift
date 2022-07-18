@@ -7,7 +7,7 @@
 
 import UIKit
 
-class EmojiTableViewCell: UITableViewCell {
+final class EmojiTableViewCell: UITableViewCell {
 
     @IBOutlet weak var emojiLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
